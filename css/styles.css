@@ -2648,39 +2648,39 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #f4623a;
-    border-color: #f4623a;
+    color: #ececec;
+    background-color: #c1a57b;
+    border-color: #c1a57b;
 }
 .btn-primary:hover {
-    color: #fff;
-    background-color: #f24516;
-    border-color: #ee3e0d;
+    color: #c1a57b;
+    background-color: #ececec;
+    border-color: #ececec;
 }
 .btn-primary:focus,
 .btn-primary.focus {
-    color: #fff;
-    background-color: #f24516;
-    border-color: #ee3e0d;
-    box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
+    color: #ececec;
+    background-color: #c1a57b;
+    border-color: #c1a57b;
+    box-shadow: 0 0 0 0.2rem #ececec;
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
-    color: #fff;
-    background-color: #f4623a;
-    border-color: #f4623a;
+    color: #ececec;
+    background-color: #c1a57b;
+    border-color: #c1a57b;
 }
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
-    color: #fff;
-    background-color: #ee3e0d;
-    border-color: #e23a0d;
+    color: #ececec;
+    background-color: #c1a57b;
+    border-color: #c1a57b;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
+    box-shadow: 0 0 0 0.2rem #ececec;
 }
 
 .btn-secondary {
@@ -10433,7 +10433,7 @@ html {
 hr.divider {
     max-width: 3.25rem;
     border-width: 0.2rem;
-    border-color: #f4623a;
+    border-color: #c1a57b;
 }
 
 hr.light {
@@ -10534,8 +10534,8 @@ header.masthead {
     padding-bottom: calc(10rem - 4.5rem);
     background: linear-gradient(
             to bottom,
-            rgba(92, 77, 66, 0.8) 0%,
-            rgba(92, 77, 66, 0.8) 100%
+            rgba(66, 88, 92, 0.4) 0%,
+            rgba(66, 88, 92, 0.4) 100%
         ),
         url('../assets/img/bg-masthead.jpg');
     background-position: center;
