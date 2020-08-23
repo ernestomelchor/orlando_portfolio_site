@@ -6503,7 +6503,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-    background-color: #f4623a !important;
+    background-color: #ececec !important;
+    color: #222831;
 }
 
 a.bg-primary:hover,
@@ -10215,16 +10216,16 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-    color: #f4623a !important;
+    color: #c1a57b !important;
 }
 
 a.text-primary:hover,
 a.text-primary:focus {
-    color: #d6370c !important;
+    color: #ececec !important;
 }
 
 .text-secondary {
-    color: #6c757d !important;
+    color: #222831 !important;
 }
 
 a.text-secondary:hover,
@@ -10597,7 +10598,7 @@ header.masthead h1 {
     text-align: center;
     opacity: 0;
     color: #fff;
-    background: rgba(244, 98, 58, 0.9);
+    background: #222831;
     transition: opacity 0.25s ease;
     text-align: center;
 }
